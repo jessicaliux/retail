@@ -1,0 +1,51 @@
+.nav ul {
+    list-style: none;
+    text-align: left;
+}
+
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    color:#4d423e;
+}
+.bag {
+    grid-column:1/13;
+    display: inline-block;
+    text-align: center;
+    padding:50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.bag:hover {
+    opacity: 0.8;
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.button {
+    border: none;
+    outline: 0;
+    padding: 7px;
+    background-color:black;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button:hover {
+    opacity: 0.8;
+}
